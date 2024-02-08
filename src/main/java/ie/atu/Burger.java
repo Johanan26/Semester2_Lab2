@@ -25,4 +25,5 @@ public class Burger implements MenuItem {
     public String getDescription() {
         return ingredients;
     }
+public class Burger {
 }
