@@ -1,19 +1,23 @@
 package ie.atu;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class OnlineOrderingSystem {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+       //create an array or list of menuItem objects
+        MenuItem[] menuItems = new MenuItem[]{
+          //Add menu items
+        };
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
+        //Display details of each menu item
+        for (MenuItem menuItem : menuItems){
+            //print out the Name, Description and price dor each item
         }
+
+        //Calculate and display the total cost of an order
+        double totalCost = 0;
+        for (MenuItem menuItem : menuItems){
+            //totalCost of all menuIteam prices in an Order
+
+        }
+        System.out.println("Total Cost: £" + totalCost);
     }
 }

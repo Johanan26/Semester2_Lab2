@@ -5,7 +5,7 @@ public class Burger implements MenuItem {
     private double price;
     private String ingredients;
 
-    public Burger(String name, double price, String ingredients){
+    public Burger(String name, double price, String ingredients) {
         this.name = name;
         this.price = price;
         this.ingredients = ingredients;
@@ -25,5 +25,4 @@ public class Burger implements MenuItem {
     public String getDescription() {
         return ingredients;
     }
-public class Burger {
 }
